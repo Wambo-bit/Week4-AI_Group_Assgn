@@ -1,3 +1,10 @@
-In this task, Selenium WebDriver was used in Google Colab to automate login testing on a sample website. Two cases were executed: a valid login using correct credentials and an invalid login using incorrect ones. The AI-powered test framework automatically detected elements, synchronized waits, and verified expected results without manual intervention. Both tests passed, confirming that the login form behaves correctly.
+Results and Analysis Summary
 
-AI improves test coverage compared to manual testing by automatically generating additional edge cases, identifying potential UI inconsistencies, and accelerating test execution across browsers. It can also suggest new scenarios based on user behavior data, reducing human oversight errors. The automated process ensures consistent, repeatable validation, leading to higher reliability and faster feedback during software development.
+In this task, Selenium WebDriver was used within Google Colab to automate testing of a login page. Two test cases were executed: one for a valid login (correct username and password) and another for an invalid login (wrong credentials). Both test cases passed successfully, as indicated by the terminal output showing .. [100%] 2 passed in 3.72s.
+
+An HTML report (report.html) and a JSON file (results.json) were automatically generated. These reports summarized the test results, showing the names of the tests, their status (Passed), and the total execution time. This confirmed that the login form correctly handled authentication and validation processes.
+![alt text](<report.jpg>)
+
+The results verify that the system works as expected — accepting valid inputs and rejecting invalid ones. The AI-assisted Selenium framework enhanced test coverage by automatically synchronizing waits, detecting elements intelligently, and generating structured test results. This ensures faster, consistent, and more reliable testing compared to manual methods
+
+![alt text](<results.jpg>)
